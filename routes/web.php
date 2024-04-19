@@ -15,4 +15,5 @@ Route::middleware('auth')->group(function () {
     
     Route::get('/dashboard', \App\Livewire\Dashboard::class)->name('dashboard');
     Route::get('/tickets', \App\Livewire\Tickets\MainTicket::class)->name('tickets');
+    Route::get('/account', \App\Livewire\Account::class)->name('account');
 });
