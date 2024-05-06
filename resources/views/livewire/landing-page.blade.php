@@ -46,22 +46,22 @@
                                         <a class="page-scroll active" href="#home">Home</a>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#about">About</a>
+                                        <a class="page-scroll" href="#about">Tentang</a>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#services">Services</a>
+                                        <a class="page-scroll" href="#services">Pelayanan</a>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#work">Projects</a>
+                                        <a class="page-scroll" href="#work">Proyek</a>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#pricing">Pricing</a>
+                                        <a class="page-scroll" href="#team">Team</a>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
                                         <a class="page-scroll" href="#blog">Blog</a>
                                     </li>
                                     <li class="nav-item ml-5 lg:ml-11">
-                                        <a class="page-scroll" href="#contact">Contact</a>
+                                        <a class="page-scroll" href="#survey">Survey</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
@@ -111,7 +111,7 @@
                     <div class="w-full lg:w-1/2">
                         <div class="header_hero_content pt-150 lg:pt-0">
                             <h2 class="hero_title text-2xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold">
-                                Creative Multipurpose Tailwind CSS <span class="text-theme-color">Template</span></h2>
+                                Infrastruktur Jaringan Komputer <span class="text-theme-color">UNSADA</span></h2>
                             <p class="mt-8 lg:mr-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
                                 nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
                             <div class="hero_btn mt-10">
@@ -144,8 +144,8 @@
             <div class="row justify-center">
                 <div class="w-full lg:w-1/2">
                     <div class="section_title text-center pb-6">
-                        <h5 class="sub_title">About</h5>
-                        <h4 class="main_title">Work Process</h4>
+                        <h5 class="sub_title">Tentang</h5>
+                        <h4 class="main_title">Prosess Kerja</h4>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -160,7 +160,7 @@
                             </svg>
                         </div>
                         <div class="services_content mt-5">
-                            <h3 class="services_title text-black font-semibold text-xl md:text-3xl">Research</h3>
+                            <h3 class="services_title text-black font-semibold text-xl md:text-3xl">Proyek</h3>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam
                                 voluptua. At vero eos accusam et justo duo dolores </p>
                         </div>
@@ -176,7 +176,7 @@
                             </svg>
                         </div>
                         <div class="services_content mt-5">
-                            <h3 class="services_title text-black font-semibold text-xl md:text-3xl">Prototype</h3>
+                            <h3 class="services_title text-black font-semibold text-xl md:text-3xl">Pemeliharaan</h3>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam
                                 voluptua. At vero eos accusam et justo duo dolores </p>
                         </div>
@@ -192,7 +192,7 @@
                             </svg>
                         </div>
                         <div class="services_content mt-5">
-                            <h3 class="services_title text-black font-semibold text-xl md:text-3xl">Build</h3>
+                            <h3 class="services_title text-black font-semibold text-xl md:text-3xl">Membangun</h3>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam
                                 voluptua. At vero eos accusam et justo duo dolores </p>
                         </div>
@@ -266,8 +266,8 @@
             <div class="row justify-center">
                 <div class="w-full lg:w-1/2">
                     <div class="section_title text-center pb-6">
-                        <h5 class="sub_title">What We Do</h5>
-                        <h4 class="main_title">Our Services</h4>
+                        <h5 class="sub_title">Apa yang kita lakukan</h5>
+                        <h4 class="main_title">Pelayanan Kami</h4>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -283,7 +283,7 @@
                         </div>
                         <div class="services_content mt-5 xl:mt-10">
                             <h3 class="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl">
-                                Web Design</h3>
+                                Maintenance</h3>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam
                                 voluptua. At vero eos accusam et justo duo dolores </p>
                         </div>
@@ -301,7 +301,7 @@
                         </div>
                         <div class="services_content mt-5 xl:mt-10">
                             <h3 class="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl">
-                                Digital Marketing</h3>
+                                Web Admin</h3>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam
                                 voluptua. At vero eos accusam et justo duo dolores </p>
                         </div>
@@ -319,7 +319,7 @@
                         </div>
                         <div class="services_content mt-5 xl:mt-10">
                             <h3 class="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl">
-                                Mobile Apps</h3>
+                                Development</h3>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam
                                 voluptua. At vero eos accusam et justo duo dolores </p>
                         </div>
@@ -696,16 +696,15 @@
                                 <div class="team_image relative">
                                     <img src="assets/images/team-1.jpg" alt="team" class="w-full">
                                     <ul class="social absolute top-4 right-8">
+                                        <li><a href="#"><i class="lni lni-whatsapp"></i></a></li>
                                         <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
                                         <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-                                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="team_content py-5 px-8 relative">
                                     <h4 class="team_name text-xl md:text-2xl"><a href="#"
-                                            class="text-black group-hover:text-white">Chris Dave</a></h4>
-                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">Founder and CEO
-                                    </p>
+                                            class="text-black group-hover:text-white">Bagus Tri Mahardika</a></h4>
+                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">Head Manager</p>
                                 </div>
                             </div> <!-- single team -->
                         </div>
@@ -716,15 +715,15 @@
                                 <div class="team_image relative">
                                     <img src="assets/images/team-3.jpg" alt="team" class="w-full">
                                     <ul class="social absolute top-4 right-8">
+                                        <li><a href="#"><i class="lni lni-whatsapp"></i></a></li>
                                         <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
                                         <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-                                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="team_content py-5 px-8 relative">
                                     <h4 class="team_name text-xl md:text-2xl"><a href="#"
-                                            class="text-black group-hover:text-white">Sarah Doe</a></h4>
-                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">UI Designer</p>
+                                            class="text-black group-hover:text-white">Nur Rachman</a></h4>
+                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">Head Networking</p>
                                 </div>
                             </div> <!-- single team -->
                         </div>
@@ -735,16 +734,15 @@
                                 <div class="team_image relative">
                                     <img src="assets/images/team-5.jpg" alt="team" class="w-full">
                                     <ul class="social absolute top-4 right-8">
+                                        <li><a href="#"><i class="lni lni-whatsapp"></i></a></li>
                                         <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
                                         <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-                                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="team_content py-5 px-8 relative">
                                     <h4 class="team_name text-xl md:text-2xl"><a href="#"
-                                            class="text-black group-hover:text-white">Rob Hope</a></h4>
-                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">Dr. Software
-                                        Engineer</p>
+                                            class="text-black group-hover:text-white">Elmina</a></h4>
+                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">Web Administrator</p>
                                 </div>
                             </div> <!-- single team -->
                         </div>
@@ -755,16 +753,15 @@
                                 <div class="team_image relative">
                                     <img src="assets/images/team-2.jpg" alt="team" class="w-full">
                                     <ul class="social absolute top-4 right-8">
+                                        <li><a href="#"><i class="lni lni-whatsapp"></i></a></li>
                                         <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
                                         <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-                                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="team_content py-5 px-8 relative">
                                     <h4 class="team_name text-xl md:text-2xl"><a href="#"
-                                            class="text-black group-hover:text-white">Micheal Jordan</a></h4>
-                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">Business
-                                        Development Manager</p>
+                                            class="text-black group-hover:text-white">Mochammad Fiqri</a></h4>
+                                    <p class="mt-2 transition-all duration-300 group-hover:text-white">IT Support</p>
                                 </div>
                             </div> <!-- single team -->
                         </div>
@@ -846,9 +843,9 @@
     
     <!--====== BLOG PART ENDS ======-->
     
-    <!--====== CONTACT PART START ======-->
+    <!--====== SURVEY PART START ======-->
     
-    <section id="contact" class="contact_area relative pt-18 pb-120">
+    <section id="survey" class="contact_area relative pt-18 pb-120">
         <div class="contact_image flex items-center justify-end">
             <div class="image lg:pr-13">
                 <img src="assets/images/contact.svg" alt="about">
@@ -860,7 +857,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="contact_wrapper mt-11">
                         <div class="section_title pb-4">
-                            <h5 class="sub_title">Contact</h5>
+                            <h5 class="sub_title">Survey</h5>
                             <h4 class="main_title">Get In Touch</h4>
                             <p>Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor
                                 invidunt ut labore et dolore magna.</p>

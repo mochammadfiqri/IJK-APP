@@ -50,6 +50,17 @@
                 </ul>
                 <ul class="pt-2 space-y-2">
                     <li>
+                        <a href="{{ route('users') }}"
+                            class="flex items-center p-2 text-base text-gray-900 rounded-lg hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700 {{ request()->routeIs('users') ? 'active bg-gray-200 dark:bg-gray-700' : '' }}">
+                            <svg class="w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
+                                fill="currentColor" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path
+                                    d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z" />
+                            </svg>
+                            <span class="ml-3" sidebar-toggle-item>Users</span>
+                        </a>
+                    </li>
+                    <li>
                         <button type="button"
                             class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700"
                             aria-controls="dropdown-setting" data-collapse-toggle="dropdown-setting">
@@ -67,14 +78,16 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                         </button>
-                        <ul id="dropdown-setting" class="space-y-2 py-2 hidden ">
+                        <ul id="dropdown-setting" class="space-y-2 py-2 {{ (request()->routeIs('account')) ? '' : 'hidden' }}  ">
                             <li>
-                                <a href="https://flowbite-admin-dashboard.vercel.app/playground/stacked/"
-                                    class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 ">Stacked</a>
+                                <a href="{{ route('account') }}"
+                                    class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 {{ request()->routeIs('account') ? 'active bg-gray-200 dark:bg-gray-700' : '' }}">
+                                    Account</a>
                             </li>
                             <li>
-                                <a href="https://flowbite-admin-dashboard.vercel.app/playground/sidebar/"
-                                    class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 ">Sidebar</a>
+                                <a href="#"
+                                    class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 ">
+                                    Landing Page</a>
                             </li>
                         </ul>
                     </li>
@@ -135,7 +148,6 @@
                     </g>
                 </svg>
             </button>
-
             <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700"
                 id="language-dropdown">
                 <ul class="py-1" role="none">
